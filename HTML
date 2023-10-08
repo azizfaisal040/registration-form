@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration Form</title>
+        <link rel="stylesheet" href="styles.css">
+     </head>
+    <body>
+        <div class="container">
+            <h2>Registration Form</h2>
+            <form action="#" method="post">
+                <div class="form-group">
+                    <label for="username">enter first name:</label>
+                    <input type="text" id="firstname" name="firstname" placeholder="Enter First Name" required>
+
+                </div>
+                <div class="form-group">
+                    <label for="password">enter last name:</label>
+                    <input type="text" id="lastname" name="lastname" placeholder="Enter Last Name" required>
+                </div>
+                <div class="form-group">
+                    <label for="username">enter Username:</label>
+                    <input type="text" id="username" name="username" placeholder="Enter Username" required>
+
+                </div>
+                
+                <div class="form-group">
+                    <label for="mobile">Mobile Number:</label>
+                    <input type="number" id="mobile" name="mobile" required>
+                </div>
+                <div class="form-group">
+                    <label for="Course" >Course:</label>
+                    <select name="Course" type="dropbox-group" placeholder="Course">
+                        <option value="" disabled selected hidden>Choosse your course</option>
+                        <option value="B.Tech">B.Tech</option>
+                        <option value="M.Tech">M.Tech</option>
+                        <option value="B Pharma">B Pharma</option>
+                        <option value="M pharma">M Pharma</option>
+                        <option value="MBA">MBA</option>
+                        <option value="PGDM">PGDM</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="Specialization">Specialization</label>
+                    <select name="Specialization" type="dropbox-group">
+                        <option value="" disabled selected hidden>Choosse your Specialization</option>
+                        <option value="DS">Data Science</option>
+                        <option value="AI">Artificial Intelligence</option>
+                        <option value="AIML">Artificial Intelligence & Machine Learning</option>
+                        <option value="CSBS">Computer Science in Bussiness Administration</option>
+                        <option value="CYS">Cyber Security</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <input type="checkbox" name="" value=""/>I agree to receive information my Submitted application by singing up on NIET
+                </div>
+                <div class="form-group">
+                    <label for="password">password:</label>
+                    <input type="password" id="password" name="password" placeholder="Enter password" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Confirm password:</label>
+                    <input type="password" id="password" name="password" placeholder="Confirm your password" required>
+                </div>
+                
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </body>
+</html>
